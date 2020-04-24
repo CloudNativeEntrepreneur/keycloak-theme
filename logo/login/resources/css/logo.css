@@ -309,12 +309,19 @@ h6 {
     box-shadow: 0 0 0;
 }
 
-.form-group label.control-label {
-    display: block;
+.form-group label {
     font-family: var(--header-font);
 }
 
-.form-group input {
+.form-group a {
+    font-family: var(--header-font);
+}
+
+.form-group label.control-label {
+    display: block;
+}
+
+.form-group input.form-control {
     display: block;
     padding: 1em;
     font-size: 1em;
@@ -332,4 +339,16 @@ h6 {
     color: var(--button-text-color);
     border: 1px solid var(--button-text-color);
     cursor: pointer;
+}
+
+div#kc-form-options {
+    margin-bottom: 2em;
+}
+
+div#kc-info {
+    padding-bottom: initial;
+    margin-bottom: initial;
+    margin-top: 3em;
+    font-size: 1em;
+    font-family: var(--header-font);
 }
