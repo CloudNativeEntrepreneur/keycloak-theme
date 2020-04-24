@@ -286,7 +286,7 @@ h6 {
     font-family: var(--header-font);
 }
 
-.kc-logo-text {
+#kc-header-wrapper div.kc-logo-text {
     background-image: url(../img/logo-dark.svg);
     background-repeat: no-repeat;
     height: 33px;
@@ -295,7 +295,7 @@ h6 {
 }
 
 @media (prefers-color-scheme: dark) {
-    .kc-logo-text {
+    #kc-header-wrapper div.kc-logo-text {
         background-image: url(../img/logo-light.svg);
     }
 }
