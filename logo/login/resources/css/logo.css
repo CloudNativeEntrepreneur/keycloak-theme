@@ -287,11 +287,17 @@ h6 {
 }
 
 .kc-logo-text {
-    background-image: url(../img/logo.svg);
+    background-image: url(../img/logo-dark.svg);
     background-repeat: no-repeat;
     height: 33px;
     width: 58px;
     margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .kc-logo-text {
+        background-image: url(../img/logo-light.svg);
+    }
 }
 
 .login-pf-page .card-pf {

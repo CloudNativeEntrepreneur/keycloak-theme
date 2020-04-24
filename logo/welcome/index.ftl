@@ -27,7 +27,7 @@
 <div class="wrapper">
     <div class="content">
         <div class="logo">
-                <img src="welcome-content/logo.svg" alt="Red Hat" border="0" />
+                <img src="welcome-content/logo-light.svg" alt="Cloud Native Entrepreneur" border="0" />
         </div>
         <h1>Welcome to Keycloak</h1>
 

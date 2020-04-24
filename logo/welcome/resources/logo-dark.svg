@@ -4,13 +4,13 @@
 	 viewBox="0 0 575.4 327.9" style="enable-background:new 0 0 575.4 327.9;" xml:space="preserve">
 	<style type="text/css">
 		.brackets {
-			fill: var(--logo-brackets-color);
+			fill: #242424;
 		}
 		.sword {
 			fill: #faaf3c;
 		}
 	</style>
-	<title>cloud-native-entrepreneur-black-logo-only</title>
+	<title>cloud-native-entrepreneur-logo-only</title>
 	<path
     class="brackets"
     d="M442.7,327.9c-7.3-5.2-14.2-11.5-21.4-17c-1.5-1.7-6.9-3.4-4.6-6c36.8-47.6,78-93.4,113-141.5
