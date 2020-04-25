@@ -277,10 +277,10 @@ h6 {
     letter-spacing: initial;
     line-height: initial;
     white-space: initial;
-    margin: 1em;
-    flex: 0.9;
+    margin: 1em 0;
+    flex: 1;
     font-weight: 300;
-    padding: 0 1em;
+    padding: 0 .5em;
     display: flex;
     justify-content: space-between;
     font-family: var(--header-font);
@@ -295,6 +295,12 @@ h6 {
 }
 
 @media (prefers-color-scheme: dark) {
+    #kc-header-wrapper {
+        margin: 1em;
+        flex: 0.9;
+        padding: 0 1em;
+    }
+
     #kc-header-wrapper div.kc-logo-text {
         background-image: url(../img/logo-light.svg);
     }
