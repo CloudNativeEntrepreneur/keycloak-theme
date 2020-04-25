@@ -302,8 +302,8 @@ h6 {
 
 .login-pf-page .card-pf {
     background: none;
-    margin: 0 auto;
-    padding: 6em 0;
+    margin: 5em auto 0;
+    padding: 2em 2em;
     max-width: 680px;
     border-top: 0;
     box-shadow: 0 0 0;
@@ -327,10 +327,14 @@ h6 {
     font-size: 1em;
     margin: .5em 0 2em;
     font-family: var(--header-font);
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    border: 1px solid rgba(0,0,0,.5);
+    width: 100%;
 }
 
 .form-group input.btn {
-    display: inline-block;
+    display: block;
     padding: 1em;
     font-family: var(--header-font);
     font-size: var(--step-up-1);
@@ -339,6 +343,7 @@ h6 {
     color: var(--button-text-color);
     border: 1px solid var(--button-text-color);
     cursor: pointer;
+    width: 100%;
 }
 
 div#kc-form-options {
@@ -351,4 +356,19 @@ div#kc-info {
     margin-top: 3em;
     font-size: 1em;
     font-family: var(--header-font);
+}
+
+#kc-info #kc-info-wrapper {
+    font-size: 1em;
+}
+
+.alert-error {
+    background-color: #ffffff;
+    border-color: #cc0000;
+    color: #fff;
+    border: 1px solid #cc0000;
+    background-color: rgba(200,0,0,.5);
+    font-family: var(--header-font);
+    padding: 1em;
+    margin-bottom: 1em;
 }
