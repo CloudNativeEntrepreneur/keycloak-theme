@@ -295,12 +295,6 @@ h6 {
 }
 
 @media (prefers-color-scheme: dark) {
-    #kc-header-wrapper {
-        margin: 1em;
-        flex: 0.9;
-        padding: 0 1em;
-    }
-
     #kc-header-wrapper div.kc-logo-text {
         background-image: url(../img/logo-light.svg);
     }
@@ -316,6 +310,12 @@ h6 {
 }
 
 @media (min-width: 415px) {
+    #kc-header-wrapper {
+        margin: 1em;
+        flex: 0.9;
+        padding: 0 1em;
+    }
+
     .login-pf-page .card-pf {
         margin: 5em auto 0;
         padding: 2em 2em;
