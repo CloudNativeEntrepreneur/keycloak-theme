@@ -294,12 +294,6 @@ h6 {
     margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-    #kc-header-wrapper div.kc-logo-text {
-        background-image: url(../img/logo-light.svg);
-    }
-}
-
 .login-pf-page .card-pf {
     background: none;
     margin: 3em auto 0;
@@ -307,19 +301,6 @@ h6 {
     max-width: 680px;
     border-top: 0;
     box-shadow: 0 0 0;
-}
-
-@media (min-width: 415px) {
-    #kc-header-wrapper {
-        margin: 1em;
-        flex: 0.9;
-        padding: 0 1em;
-    }
-
-    .login-pf-page .card-pf {
-        margin: 5em auto 0;
-        padding: 2em 2em;
-    }
 }
 
 .form-group label {
@@ -340,9 +321,8 @@ h6 {
     font-size: 1em;
     margin: .5em 0 2em;
     font-family: var(--header-font);
-    background: rgba(0,0,0,.2);
-    color: #fff;
-    border: 1px solid rgba(0,0,0,.5);
+    border: none;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
     width: 100%;
 }
 
@@ -385,8 +365,37 @@ div#kc-info {
     border-color: #cc0000;
     color: #fff;
     border: 1px solid #cc0000;
-    background-color: rgba(200,0,0,.5);
+    background-color: rgba(200,0,0,.7);
     font-family: var(--header-font);
     padding: 1em;
     margin-bottom: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+    .alert-error {
+        background-color: rgba(200,0,0,.5);
+    }
+
+    #kc-header-wrapper div.kc-logo-text {
+        background-image: url(../img/logo-light.svg);
+    }
+
+    .form-group input.form-control {
+        background: rgba(0,0,0,.2);
+        color: #fff;
+        border: 1px solid rgba(0,0,0,.5);
+    }
+}
+
+@media (min-width: 415px) {
+    #kc-header-wrapper {
+        margin: 1em;
+        flex: 0.9;
+        padding: 0 1em;
+    }
+
+    .login-pf-page .card-pf {
+        margin: 5em auto 0;
+        padding: 2em 2em;
+    }
 }
