@@ -326,7 +326,7 @@ h6 {
     width: 100%;
 }
 
-.form-group input.btn {
+.btn {
     display: block;
     padding: 1em;
     font-family: var(--header-font);
@@ -340,7 +340,7 @@ h6 {
     transition: filter 0.25s ease 0s;
 }
 
-.form-group input.btn:hover {
+.btn:hover {
     filter: brightness(1.1)
 }
 
@@ -404,4 +404,87 @@ div#kc-info {
     background: url('../img/logo-light.svg') no-repeat;
     height: 45px;
     width: 150px;
+}
+
+header.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+header.navbar nav.navbar {
+    flex: .9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--header-font);
+}
+
+.navbar-header {
+    background: url(../img/logo-dark.svg) no-repeat;
+    height: 33px;
+    width: 58px;
+    margin: 0;
+}
+
+.navbar-header .container {
+    display: none;
+}
+
+ul.navbar-nav li a.referrer {
+    display: none;
+}
+
+.admin-console .container {
+    margin-top: 3em;
+    display: flex;
+}
+
+.admin-console .container .bs-sidebar {
+    flex: .2;
+    padding: 2em;
+    font-family: var(--header-font);
+}
+
+.admin-console .container .bs-sidebar ul {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.admin-console .container .bs-sidebar li {
+    margin-bottom: 1em;
+}
+.admin-console .container .bs-sidebar li.active {
+    color: var(--logo-sword-color);
+}
+
+.admin-console .container .bs-sidebar li a {
+    text-decoration: none;
+    color: inherit;
+}
+.admin-console .container .bs-sidebar li a:hover {
+    text-decoration: underline;
+}
+
+.content-area {
+    flex: .7;
+    padding: 2em;
+}
+
+.content-area > .row > .col-md-10 > h2 {
+    margin-top: 0;
+}
+
+.content-area .subtitle {
+    margin-bottom: 2em;
+}
+
+.content-area .subtitle span.subtitle {
+    font-family: var(--header-font);
+    font-style: italic;
 }
