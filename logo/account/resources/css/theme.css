@@ -336,35 +336,6 @@ div#kc-info {
     background-color: rgb(0,100,0);
 }
 
-@media (prefers-color-scheme: dark) {
-    .alert-error {
-        background-color: rgba(200,0,0,.5);
-    }
-
-    #kc-header-wrapper div.kc-logo-text {
-        background-image: url(../img/logo-light.svg);
-    }
-
-    .form-group input.form-control {
-        background: rgba(0,0,0,.2);
-        color: #fff;
-        border: 1px solid rgba(0,0,0,.5);
-    }
-}
-
-@media (min-width: 415px) {
-    #kc-header-wrapper {
-        margin: 1em;
-        flex: 0.9;
-        padding: 0 1em;
-    }
-
-    .login-pf-page .content-area {
-        margin: 5em auto 0;
-        padding: 2em 2em;
-    }
-}
-
 .navbar-title {
     background: url('../img/logo-light.svg') no-repeat;
     height: 45px;
@@ -496,5 +467,21 @@ thead td {
     }
     .content-area {
         flex: .7;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .alert-error {
+        background-color: rgba(200,0,0,.5);
+    }
+
+    .navbar-header {
+        background-image: url(../img/logo-dark.svg);
+    }
+
+    .form-group input.form-control {
+        background: rgba(0,0,0,.2);
+        color: #fff;
+        border: 1px solid rgba(0,0,0,.5);
     }
 }
