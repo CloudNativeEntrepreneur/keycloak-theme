@@ -374,7 +374,7 @@ header.navbar {
 header.navbar nav.navbar {
     flex: 0.9;
     font-weight: 300;
-    padding: 0 1em;
+    padding: 1em 1em;
     display: flex;
     justify-content: space-between;
     font-family: var(--header-font);
@@ -393,6 +393,9 @@ header.navbar nav.navbar {
 
 ul.navbar-nav li a#referrer {
     display: none;
+}
+ul.navbar-nav li a {
+    text-decoration: none;
 }
 
 .admin-console > .container {
