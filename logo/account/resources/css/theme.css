@@ -460,6 +460,10 @@ ul.navbar-nav li a {
     font-style: italic;
 }
 
+td {
+    padding-right: 1em;
+}
+
 thead td {
     font-weight: 700;
     font-family: var(--header-font);
