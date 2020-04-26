@@ -419,7 +419,7 @@ ul.navbar-nav li a {
 }
 
 .admin-console .container .bs-sidebar {
-    flex: 1;
+    padding: 2em;
     font-family: var(--header-font);
 }
 
@@ -439,7 +439,6 @@ ul.navbar-nav li a {
 }
 
 .content-area {
-    flex: 1;
     padding: 2em;
 }
 
@@ -468,7 +467,6 @@ thead td {
 @media (min-width: 415px) {
     .admin-console .container .bs-sidebar {
         flex: .2;
-        padding: 2em;
     }
     .admin-console .container .bs-sidebar ul {
         text-align: left;
