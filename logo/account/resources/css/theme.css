@@ -420,6 +420,7 @@ ul.navbar-nav li a {
 
 .admin-console .container .bs-sidebar {
     flex: 1;
+    font-family: var(--header-font);
 }
 
 .admin-console .container .bs-sidebar li {
