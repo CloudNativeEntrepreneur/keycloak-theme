@@ -262,10 +262,6 @@ h6 {
     font-family: var(--header-font);
 }
 
-.form-group label.control-label {
-    display: block;
-}
-
 .form-group input.form-control {
     display: block;
     padding: 1em;
@@ -291,6 +287,10 @@ h6 {
     transition: filter 0.25s ease 0s;
 }
 
+.btn.btn-default {
+    background: #eee;
+}
+
 .btn:hover {
     filter: brightness(1.1)
 }
@@ -311,15 +311,24 @@ div#kc-info {
     font-size: 1em;
 }
 
-.alert-error {
-    background-color: #ffffff;
-    border-color: #cc0000;
-    color: #fff;
-    border: 1px solid #cc0000;
-    background-color: rgba(200,0,0,.8);
+.alert {
+    color: #000;
+    border: 1px solid #000;
+    background-color: #eee;
     font-family: var(--header-font);
     padding: 1em;
     margin-bottom: 1em;
+}
+
+.alert-error {
+    border-color: rgb(200,0,0);
+    color: #fff;
+    background-color: rgba(200,0,0,.8);
+}
+
+.alert-success {
+    background-color: rgba(0,200,0,.5);
+    background-color: rgb(0,100,0);
 }
 
 @media (prefers-color-scheme: dark) {
