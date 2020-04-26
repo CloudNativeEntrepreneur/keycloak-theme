@@ -254,55 +254,6 @@ h6 {
     font-family: var(--header-font);
 }
 
-#kc-header {
-    z-index: 100;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--header-background);
-    color: var(--header-color);
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-}
-
-#kc-header-wrapper {
-    background: none;
-    height: initial;
-    width: auto;
-    font-size: initial;
-    text-transform: initial;
-    letter-spacing: initial;
-    line-height: initial;
-    white-space: initial;
-    margin: 1em 0;
-    flex: 1;
-    font-weight: 300;
-    padding: 0 .5em;
-    display: flex;
-    justify-content: space-between;
-    font-family: var(--header-font);
-}
-
-#kc-header-wrapper div.kc-logo-text {
-    background-image: url(../img/logo-dark.svg);
-    background-repeat: no-repeat;
-    height: 33px;
-    width: 58px;
-    margin: 0;
-}
-
-.login-pf-page .content-area {
-    background: none;
-    margin: 3em auto 0;
-    padding: 1em 1em;
-    max-width: 680px;
-    border-top: 0;
-    box-shadow: 0 0 0;
-}
-
 .form-group label {
     font-family: var(--header-font);
 }
@@ -407,20 +358,24 @@ div#kc-info {
 }
 
 header.navbar {
-    position: absolute;
+    z-index: 100;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: var(--header-background);
+    color: var(--header-color);
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
 }
 
 header.navbar nav.navbar {
-    flex: .9;
+    flex: 0.9;
+    font-weight: 300;
+    padding: 0 1em;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     font-family: var(--header-font);
 }
@@ -436,11 +391,11 @@ header.navbar nav.navbar {
     display: none;
 }
 
-ul.navbar-nav li a.referrer {
+ul.navbar-nav li a#referrer {
     display: none;
 }
 
-.admin-console .container {
+.admin-console > .container {
     margin-top: 3em;
     display: flex;
 }
