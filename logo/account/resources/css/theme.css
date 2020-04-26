@@ -415,17 +415,11 @@ ul.navbar-nav li a {
 .admin-console > .container {
     margin-top: 3em;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .admin-console .container .bs-sidebar {
-    flex: .2;
-    padding: 2em;
-    font-family: var(--header-font);
-}
-
-.admin-console .container .bs-sidebar ul {
-    text-align: left;
-    margin-left: 1em;
+    flex: 1;
 }
 
 .admin-console .container .bs-sidebar li {
@@ -444,7 +438,7 @@ ul.navbar-nav li a {
 }
 
 .content-area {
-    flex: .7;
+    flex: 1;
     padding: 2em;
 }
 
@@ -468,4 +462,18 @@ td {
 thead td {
     font-weight: 700;
     font-family: var(--header-font);
+}
+
+@media (min-width: 415px) {
+    .admin-console .container .bs-sidebar {
+        flex: .2;
+        padding: 2em;
+    }
+    .admin-console .container .bs-sidebar ul {
+        text-align: left;
+        margin-left: 1em;
+    }
+    .content-area {
+        flex: .7;
+    }
 }
