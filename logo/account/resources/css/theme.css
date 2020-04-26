@@ -238,7 +238,7 @@ h6 {
 }
 
 .content-area ol {
-    list-style: initial;
+    list-style: decimal;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -252,6 +252,10 @@ h6 {
     margin-top: 3em;
     font-style: italic;
     font-family: var(--header-font);
+}
+
+.content-area hr {
+    margin: 3em 0;
 }
 
 .form-group label {
@@ -454,4 +458,9 @@ ul.navbar-nav li a {
 .content-area .subtitle span.subtitle {
     font-family: var(--header-font);
     font-style: italic;
+}
+
+thead td {
+    font-weight: 700;
+    font-family: var(--header-font);
 }
