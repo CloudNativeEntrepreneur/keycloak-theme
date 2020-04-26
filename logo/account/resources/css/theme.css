@@ -293,6 +293,7 @@ h6 {
 
 .btn.btn-default {
     background: #eee;
+    border-color: #777;
 }
 
 .btn:hover {
